@@ -1,0 +1,43 @@
+.hero_content {
+    display: flex;
+    padding-inline: 100px;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.hero_left {
+    max-width: 50%;
+    margin-top: 120px;
+}
+
+.hero_left h2 {
+    font-size: 65px;
+}
+
+.hero_left p {
+    margin-top: 15px;
+    font-size: 20px;
+    color: #666;
+}
+
+.hero_left button {
+    padding: 1.1rem 3.5rem;
+    border: none;
+    background-color: red;
+    color: #fff;
+    margin-top: 20px;
+    border-radius: 10px;
+} /* ✅ closed properly */
+
+.hero_right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.hero_right img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50px;
+    object-fit: cover;
+}
